@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #000;
 }
 
+/* NAVIGATION */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -43,3 +44,17 @@ ul a {
 ul a:hover {
     background-color: #00ace6;
 }
+
+/********** DOGS *********/
+
+.dogs {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 300px;
+    margin: 50px;
+}
+
