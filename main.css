@@ -45,16 +45,21 @@ ul a:hover {
     background-color: #00ace6;
 }
 
-/********** DOGS *********/
+/********** DOGS & CATS *********/
 
-.dogs {
+.index, .cats, .dogs {
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.dogs img {
+.index img, .cats img, .dogs img {
     width: 300px;
     margin: 50px;
 }
 
+/************** FOOTER ******************/
+
+footer {
+    color: white;
+}
